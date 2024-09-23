@@ -1,0 +1,15 @@
+.a1bb { 
+    background-color: var(--int24);
+}
+.a2p { background-color: var(--int23); }
+.a3p { background-color: var(--int22); }
+.a4p { background-color: var(--int21); }
+.a5p { background-color: var(--int19); }
+.a6p { background-color: var(--int18); }
+
+.a1p { background-color: var(--int24c); }
+.a2bb { background-color: var(--int23c); }
+.a3bb { background-color: var(--int22c); }
+.a4bb{ background-color: var(--int21c); }
+.a5bb { background-color: var(--int19c); }
+.a6bb { background-color: var(--int18c); }

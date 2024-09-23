@@ -1,0 +1,55 @@
+.date-post{
+    display: block;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 15px;
+}
+.back-button{
+    display: block;
+    width:100%;
+    padding: 8px 0;
+    cursor: pointer;
+    z-index: 100;
+    position: absolute;
+    top: 40px;
+
+}
+.back-button a{
+    text-decoration: none;
+}
+.back-button img{
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
+}
+.back-button h3{
+    margin: 0;
+    margin-top: 4px;
+}
+.back{
+    margin-left: 15px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.post{
+    min-height: 100vh;
+}
+.post-detail-block{
+    padding: 110px 0;
+    color: white;
+}
+.post-detail-block img{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.post-detail-block, .post-card-title, .date, .discription {
+    margin-bottom: 20px;
+}
+.post-card-title{
+    font-size: 22px;
+}
+.discription{
+    margin-left: 0px;
+}

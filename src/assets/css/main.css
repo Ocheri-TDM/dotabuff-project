@@ -1,0 +1,93 @@
+body{
+    background-color: var(--back-color);
+}
+
+:root{
+    --int24: #235927;
+    --int24c: #36733A;
+    --int23: #29A0A6;
+    --int23c: #006B75;
+    --int22: #922222;
+    --int22c: #521414;
+    --int21: #736536;
+    --int21c: #4E4219;
+    --int19: #6E3E86;
+    --int19c: #411B54;
+    --int18: #7D7F7E;
+    --int18c:#585958;
+}
+.minhead{
+    min-height: 70vh;
+    padding: 0px 0;
+}
+.main-text{
+    padding: 130px 0;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+.category-row{
+    padding: 40px 0;
+    display:grid; 
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+}
+
+.category-item{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 30px;
+    text-align: center;
+    border-radius: 30px;
+    max-height: 175px;
+    max-width: 175px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 100%;
+}
+.a1, .a2, .a3, .a4, .a5, .a6 {
+    background-color: var(--int24); 
+}
+
+.a1:hover { background-color: var(--int24c); }
+.a2:hover { background-color: var(--int23c); }
+.a3:hover { background-color: var(--int22c); }
+.a4:hover { background-color: var(--int21c); }
+.a5:hover { background-color: var(--int19c); }
+.a6:hover { background-color: var(--int18c); }
+
+.a1 { background-color: var(--int24); }
+.a2 { background-color: var(--int23); }
+.a3 { background-color: var(--int22); }
+.a4 { background-color: var(--int21); }
+.a5 { background-color: var(--int19); }
+.a6 { background-color: var(--int18); }
+
+
+.category-item:hover .category-item-img {
+    width: 110px;
+    height: 110px;
+}
+.category-item:hover .category-item-title {
+    opacity: 0;
+}
+.category-item-img, .category-item-title{
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+.category-item-img{
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    margin-bottom: 15px;
+}
+.category-item, .category-item:hover, .category-item-img{
+    transition: 0.3s ease-in-out;
+}
+.qwe{
+    margin-bottom: 65px;
+}

@@ -1,0 +1,154 @@
+:root{
+  --back-color: #45444B;
+  --stats: #414045;
+  --win: #36D313;
+  --lose: #E41616;
+  --secondary: #777575;
+  --match: #5C5D64;
+
+}
+
+
+/* Основные стили */
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  background-color: var(--back-color);
+  color: white;
+  padding-top: 80px;
+}
+.h2-stats{
+  font-size: 12px;
+  color: var(--secondary);
+}
+h2, h3 {
+  margin: 0;
+}
+
+/* Стили для блока Stats */
+.stats-block {
+  background-color: var(--stats);
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.player-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.player-details {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.player-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.last-game {
+  font-size: 14px;
+  color: var(--gray_text);
+}
+
+.player-stats {
+  text-align: right;
+}
+
+.matches, .winrate {
+  font-size: 12px;
+  margin: 2px 0;
+}
+
+.matches-block {
+  background-color: var(--stats);
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.latest-matches-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.match {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--match);
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.match-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.hero-info {
+  display: flex;
+  align-items: center;
+}
+
+.hero-image {
+  width: 60px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.hero-name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.match-details {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+.match-info{
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.match-status {
+  font-size: 14px;
+  margin: 2px 0;
+}
+
+.lose {
+  color:var(--lose);
+  font-weight: bold;
+}
+.win {
+  color: var(--win);
+  font-weight: bold;
+}
+
+.match-time, .match-kda {
+  font-size: 12px;
+  color: var(--gray_text);
+}
+
+
